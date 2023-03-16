@@ -1,5 +1,5 @@
 import { Search } from "@mui/icons-material";
-import { Stack, Typography } from "@mui/material";
+import { Stack } from "@mui/material";
 import { useState } from "react";
 import styled from "styled-components";
 import ProductsData from "./../../__mock__/products.json";

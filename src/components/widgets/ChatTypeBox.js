@@ -1,6 +1,6 @@
 import { Send } from "@mui/icons-material";
 import { Box, IconButton, Stack, TextField } from "@mui/material";
-import { useRef, useState } from "react";
+import { useState } from "react";
 import styled from "styled-components";
 
 const ControlWrapper = styled(Stack)``;
@@ -19,7 +19,6 @@ export const ChatTypeBox = ({ handleOnSend }) => {
           onChange={(e) => setMessageContent(e.target.value)}
           multiline
           fullWidth
-          flexGrow={0}
           sx={{
             maxHeight: "80px",
             overflowY: "scroll",

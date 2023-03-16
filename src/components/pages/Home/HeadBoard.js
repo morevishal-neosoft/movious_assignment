@@ -1,4 +1,4 @@
-import { Button, Grid, Typography } from "@mui/material";
+import { Grid } from "@mui/material";
 import styled from "styled-components";
 import { HighlightButton } from "../../custom/Button";
 import { Heading } from "../../header/Heading";
